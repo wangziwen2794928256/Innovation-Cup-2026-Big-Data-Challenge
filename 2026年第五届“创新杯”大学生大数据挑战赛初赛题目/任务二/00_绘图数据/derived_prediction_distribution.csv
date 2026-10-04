@@ -1,0 +1,21 @@
+﻿series,class,rate
+真实分布,Poor,0.2435
+真实分布,Average,0.232
+真实分布,Good,0.259
+真实分布,Excellent,0.2655
+多项逻辑回归,Poor,0.2345
+多项逻辑回归,Average,0.2445
+多项逻辑回归,Good,0.27
+多项逻辑回归,Excellent,0.251
+Ordinal Logistic,Poor,0.2855
+Ordinal Logistic,Average,0.1925
+Ordinal Logistic,Good,0.2045
+Ordinal Logistic,Excellent,0.3175
+LightGBM,Poor,0.235
+LightGBM,Average,0.244
+LightGBM,Good,0.2685
+LightGBM,Excellent,0.2525
+Stacking融合,Poor,0.24
+Stacking融合,Average,0.2275
+Stacking融合,Good,0.2745
+Stacking融合,Excellent,0.258

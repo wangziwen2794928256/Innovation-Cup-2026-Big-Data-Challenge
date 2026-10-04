@@ -1,0 +1,145 @@
+{
+  "started": 1785015840.54562,
+  "seconds": 57.69,
+  "figures_registered": 29,
+  "png_count": 29,
+  "pdf_count": 29,
+  "html_count": 1,
+  "tasks": [
+    {
+      "task": "FigT2_01",
+      "status": "ok",
+      "seconds": 1.3
+    },
+    {
+      "task": "FigT2_02",
+      "status": "ok",
+      "seconds": 1.04
+    },
+    {
+      "task": "FigT2_03",
+      "status": "ok",
+      "seconds": 1.02
+    },
+    {
+      "task": "FigT2_04",
+      "status": "ok",
+      "seconds": 0.78
+    },
+    {
+      "task": "FigT2_05",
+      "status": "ok",
+      "seconds": 1.19
+    },
+    {
+      "task": "FigT2_06",
+      "status": "ok",
+      "seconds": 1.4
+    },
+    {
+      "task": "FigT2_07",
+      "status": "ok",
+      "seconds": 1.4
+    },
+    {
+      "task": "FigT2_08",
+      "status": "ok",
+      "seconds": 0.81
+    },
+    {
+      "task": "FigT2_09",
+      "status": "ok",
+      "seconds": 1.08
+    },
+    {
+      "task": "FigT2_10",
+      "status": "ok",
+      "seconds": 0.97
+    },
+    {
+      "task": "FigT2_11_12",
+      "status": "ok",
+      "seconds": 2.05
+    },
+    {
+      "task": "FigT2_13_14",
+      "status": "ok",
+      "seconds": 3.6
+    },
+    {
+      "task": "FigT2_15",
+      "status": "ok",
+      "seconds": 1.38
+    },
+    {
+      "task": "FigT2_16",
+      "status": "ok",
+      "seconds": 0.76
+    },
+    {
+      "task": "FigT2_17",
+      "status": "ok",
+      "seconds": 1.06
+    },
+    {
+      "task": "FigT2_18",
+      "status": "ok",
+      "seconds": 2.38
+    },
+    {
+      "task": "FigT2_19",
+      "status": "ok",
+      "seconds": 1.01
+    },
+    {
+      "task": "FigT2_20",
+      "status": "ok",
+      "seconds": 1.46
+    },
+    {
+      "task": "FigT2_21",
+      "status": "ok",
+      "seconds": 0.91
+    },
+    {
+      "task": "FigT2_22",
+      "status": "ok",
+      "seconds": 1.15
+    },
+    {
+      "task": "FigT2_23",
+      "status": "ok",
+      "seconds": 4.06
+    },
+    {
+      "task": "FigT2_24",
+      "status": "ok",
+      "seconds": 20.61
+    },
+    {
+      "task": "FigT2_25",
+      "status": "ok",
+      "seconds": 2.15
+    },
+    {
+      "task": "FigT2_26",
+      "status": "ok",
+      "seconds": 0.83
+    },
+    {
+      "task": "FigT2_27",
+      "status": "ok",
+      "seconds": 1.02
+    },
+    {
+      "task": "FigT2_28",
+      "status": "ok",
+      "seconds": 0.89
+    },
+    {
+      "task": "FigT2_29",
+      "status": "ok",
+      "seconds": 1.25
+    }
+  ]
+}

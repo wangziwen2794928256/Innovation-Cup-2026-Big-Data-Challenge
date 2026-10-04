@@ -1,0 +1,25 @@
+{
+  "task": "任务三：综合健康类别预测",
+  "label_mapping": {
+    "Poor": "Average",
+    "Average": "Average",
+    "Good": "Good",
+    "Excellent": "Excellent"
+  },
+  "class_order": [
+    "Average",
+    "Good",
+    "Excellent"
+  ],
+  "random_seed": 2026,
+  "development_fraction": 0.8,
+  "locked_holdout_fraction": 0.2,
+  "oof_folds": 5,
+  "competition_model": "FINAL_ExtraTrees_FULL_3C_all10000.joblib",
+  "explanation_fusion_weights": {
+    "Logistic": 0.6,
+    "HistGB": 0.1,
+    "ExtraTrees": 0.3,
+    "MLP": 0.0
+  }
+}

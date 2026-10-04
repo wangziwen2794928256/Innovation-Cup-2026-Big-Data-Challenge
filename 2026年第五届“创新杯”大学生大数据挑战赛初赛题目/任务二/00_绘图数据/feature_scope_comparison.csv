@@ -1,0 +1,3 @@
+﻿scope,split,model,accuracy,macro_f1,weighted_f1,quadratic_weighted_kappa,grade_mae,severe_error_rate,log_loss,recommended_for_paper
+strict_no_proxy,outer_validation,Stacking,0.779,0.7773818380086666,0.7797912068745131,0.911927752063471,0.221,0.0,0.5009561470812595,True
+competition_full,outer_validation,Stacking,0.8945,0.8948693196590167,0.8953730931051096,0.9576515092520413,0.1055,0.0,0.262846783207154,False

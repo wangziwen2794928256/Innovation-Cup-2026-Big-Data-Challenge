@@ -1,0 +1,16 @@
+﻿feature,mutual_information,group
+Energy_Level_Score,0.20705970597137702,心理
+Mood_Score,0.18569202330689727,心理
+Fatigue_Level_Score,0.15017233215264625,其他
+Anxiety_Score,0.14727358172571448,心理
+Depression_Risk_Score,0.14008448635423054,生理
+Exercise_Frequency_Per_Week,0.13936887790095787,运动
+Life_Satisfaction_Score,0.1298496753277596,其他
+Productivity_Score,0.12101846576293918,其他
+Daily_Steps,0.11967881412745296,运动
+BMI,0.11330851879838244,生理
+Sleep_Quality_Score,0.10609832437323696,睡眠
+Stress_Level,0.09094647995219951,心理
+Weight_kg,0.08093933538319176,生理
+Water_Intake_Liters,0.07377715816099695,营养
+Focus_Concentration_Score,0.0619668583241042,其他

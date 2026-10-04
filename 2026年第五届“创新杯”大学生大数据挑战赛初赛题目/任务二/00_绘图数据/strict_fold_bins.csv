@@ -1,0 +1,6 @@
+﻿scope,split,q25,q50,q75,n_train,n_valid
+strict_no_proxy,cv_fold_1_train,65.9,74.4,82.6,6000,2000
+strict_no_proxy,cv_fold_2_train,65.875,74.5,82.8,6000,2000
+strict_no_proxy,cv_fold_3_train,66.0,74.3,82.6,6000,2000
+strict_no_proxy,cv_fold_4_train,65.9,74.5,82.6,6000,2000
+strict_no_proxy,outer_train,65.9,74.4,82.7,8000,2000

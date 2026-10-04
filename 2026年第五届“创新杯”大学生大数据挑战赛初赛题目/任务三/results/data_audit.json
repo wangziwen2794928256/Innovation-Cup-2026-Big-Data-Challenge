@@ -1,0 +1,22 @@
+{
+  "rows": 10000,
+  "columns": 64,
+  "missing": {
+    "Exercise_Type": 824,
+    "Workout_Intensity": 824,
+    "Alcohol_Consumption": 3014
+  },
+  "original_distribution": {
+    "Good": 4429,
+    "Excellent": 3320,
+    "Average": 2137,
+    "Poor": 114
+  },
+  "official_3c_distribution": {
+    "Good": 4429,
+    "Excellent": 3320,
+    "Average": 2251
+  },
+  "fitness_exact_match_4c": 1.0,
+  "health_score_rule_exact_match_4c": 1.0
+}

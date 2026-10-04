@@ -1,0 +1,24 @@
+{
+  "label_mode": "official_3C_Poor_to_Average",
+  "class_order": [
+    "Average",
+    "Good",
+    "Excellent"
+  ],
+  "seed": 2026,
+  "fusion_weights": {
+    "Logistic": 0.6000000000000001,
+    "HistGB": 0.1,
+    "ExtraTrees": 0.30000000000000004,
+    "MLP": 0.0
+  },
+  "models": [
+    "FINAL_Logistic_NO_DIRECT_3C_all10000.joblib",
+    "FINAL_HistGB_NO_DIRECT_3C_all10000.joblib",
+    "FINAL_ExtraTrees_NO_DIRECT_3C_all10000.joblib",
+    "FINAL_MLP_NO_DIRECT_3C_all10000.joblib"
+  ],
+  "competition_model": "FINAL_ExtraTrees_FULL_3C_all10000.joblib",
+  "competition_scope": "FULL",
+  "explanation_scope": "NO_DIRECT"
+}

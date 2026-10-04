@@ -1,0 +1,10 @@
+pandas>=3.0
+numpy>=2.4
+matplotlib>=3.10
+seaborn>=0.13
+scipy>=1.18
+networkx>=3.0
+scikit-learn>=1.9
+umap-learn>=0.5.12
+plotly>=6.9
+kaleido>=1.3

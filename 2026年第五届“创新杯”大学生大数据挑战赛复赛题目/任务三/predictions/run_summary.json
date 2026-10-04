@@ -1,0 +1,37 @@
+{
+  "task": "复赛A题任务三：Health_Score回归",
+  "target": "Health_Score",
+  "id_column": "Person_ID",
+  "rows": 10000,
+  "columns": 64,
+  "random_state": 2026,
+  "holdout_size": 0.2,
+  "cv_folds": 5,
+  "removed_direct_leakage": [
+    "Wellness_Category"
+  ],
+  "residual_weights": {
+    "hist_residual": 0.242201204836797,
+    "extra_residual": 0.37212674024170955,
+    "gbr_residual": 0.6191652900491698
+  },
+  "oof_metrics": {
+    "R2": 0.9831680047265811,
+    "RMSE": 1.5889765817856725,
+    "MAE": 1.2599167836092973
+  },
+  "holdout_metrics": {
+    "R2": 0.9828811598761882,
+    "RMSE": 1.6131247136892128,
+    "MAE": 1.286548190632078
+  },
+  "environment": {
+    "python": "3.12.13",
+    "platform": "Linux-6.18.35-x86_64-with-glibc2.39",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit_learn": "1.8.0",
+    "matplotlib": "3.10.8"
+  }
+}

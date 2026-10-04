@@ -1,0 +1,11 @@
+{
+  "source_package": "任务一_完成交付包_V4",
+  "holdout_seed": 42,
+  "holdout_test_size": 0.2,
+  "repeated_cv": "3 random seeds × 5 folds",
+  "full_definition": "删除 Person_ID 与四个跨任务综合字段；保留 Wake Up Time 及周期派生特征",
+  "strict_definition": "在 FULL 基础上进一步删除 Wake Up Time、Sleep Time、Sleep Duration Hours 及其派生信息",
+  "full_final_model": "Random_Forest",
+  "strict_final_model": "Logistic_Regression",
+  "verified": true
+}

@@ -1,0 +1,9 @@
+﻿scope,split,class,count,rate
+strict_no_proxy,outer_train,Poor,2006,0.25075
+strict_no_proxy,outer_train,Average,2002,0.25025
+strict_no_proxy,outer_train,Good,2011,0.251375
+strict_no_proxy,outer_train,Excellent,1981,0.247625
+strict_no_proxy,outer_validation,Poor,487,0.2435
+strict_no_proxy,outer_validation,Average,464,0.232
+strict_no_proxy,outer_validation,Good,518,0.259
+strict_no_proxy,outer_validation,Excellent,531,0.2655

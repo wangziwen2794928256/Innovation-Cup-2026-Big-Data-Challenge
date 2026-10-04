@@ -1,0 +1,6 @@
+﻿scope,model,metric,class,value,n_bins
+strict_no_proxy,Stacking,multiclass_confidence_ECE,all,0.020601293028628932,10
+strict_no_proxy,Stacking,one_vs_rest_brier,Poor,0.047424958099998145,10
+strict_no_proxy,Stacking,one_vs_rest_brier,Average,0.10461356977953751,10
+strict_no_proxy,Stacking,one_vs_rest_brier,Good,0.10623614648234846,10
+strict_no_proxy,Stacking,one_vs_rest_brier,Excellent,0.04704742946810164,10
