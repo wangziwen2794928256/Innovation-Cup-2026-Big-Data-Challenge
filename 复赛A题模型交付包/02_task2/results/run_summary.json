@@ -1,0 +1,206 @@
+{
+  "task": "复赛 A 题任务二：Productivity_Score 回归",
+  "target": "Productivity_Score",
+  "id_column": "Person_ID",
+  "rows": 10000,
+  "columns": 64,
+  "random_state": 2026,
+  "holdout_size": 0.2,
+  "cv_folds": 5,
+  "selected_model": "Ridge α=10",
+  "selection_rule": "若 Ridge α=10 的 OOF 调整 R² 距最佳值不超过 0.001，则优先采用 Ridge；否则采用最佳候选。",
+  "excluded_prediction_proxies": [
+    "Health_Score",
+    "Fitness_Level",
+    "Healthy_Aging_Score",
+    "Wellness_Category",
+    "Energy_Level_Score",
+    "Fatigue_Level_Score",
+    "Immune_Health_Score",
+    "Mood_Score",
+    "Anxiety_Score",
+    "Depression_Risk_Score",
+    "Focus_Concentration_Score",
+    "Life_Satisfaction_Score"
+  ],
+  "adjusted_r2_definition": {
+    "headline": "变换后设计矩阵维数 p",
+    "formula": "1-(1-R2)*(n-1)/(n-p-1)",
+    "sensitivity": "同时保存按原始变量组数 p 计算的结果"
+  },
+  "oof_metrics": {
+    "R2": 0.6206932933355022,
+    "Adjusted_R2_Transformed": 0.6159885651677866,
+    "Adjusted_R2_Raw_Groups": 0.6183074164537278,
+    "RMSE": 0.705211484158893,
+    "MAE": 0.5615564149249781
+  },
+  "holdout_metrics": {
+    "R2": 0.6140988315769786,
+    "Adjusted_R2_Transformed": 0.5942049259980959,
+    "Adjusted_R2_Raw_Groups": 0.6041988529104054,
+    "RMSE": 0.7186056013611442,
+    "MAE": 0.576399122978753
+  },
+  "energy_auxiliary_oof_metrics": {
+    "R2": 0.711583256763203,
+    "Adjusted_R2_Transformed": 0.7080058816414201,
+    "Adjusted_R2_Raw_Groups": 0.7097690867843578,
+    "RMSE": 0.6775384546639931,
+    "MAE": 0.5432512934600975
+  },
+  "top_productivity_dependencies": [
+    {
+      "Feature": "Sleep_Quality_Score",
+      "Importance_Mean": 0.2653321902787541,
+      "Importance_STD_Folds": 0.015461263610023243,
+      "Min_Fold_Importance": 0.24464323242896038,
+      "Max_Fold_Importance": 0.2810521512821106
+    },
+    {
+      "Feature": "Exercise_Frequency_Per_Week",
+      "Importance_Mean": 0.24639530523033443,
+      "Importance_STD_Folds": 0.015443984070124442,
+      "Min_Fold_Importance": 0.2238054118100115,
+      "Max_Fold_Importance": 0.26689812048030914
+    },
+    {
+      "Feature": "Early_Waker",
+      "Importance_Mean": 0.22423741775856842,
+      "Importance_STD_Folds": 0.01707429292113728,
+      "Min_Fold_Importance": 0.20419979453599532,
+      "Max_Fold_Importance": 0.2461769338246261
+    },
+    {
+      "Feature": "Stress_Level",
+      "Importance_Mean": 0.1292448417390474,
+      "Importance_STD_Folds": 0.0023550319448109517,
+      "Min_Fold_Importance": 0.12666418341420127,
+      "Max_Fold_Importance": 0.1324175914984222
+    },
+    {
+      "Feature": "Morning_Workout",
+      "Importance_Mean": 0.08965829639936504,
+      "Importance_STD_Folds": 0.004529315729295171,
+      "Min_Fold_Importance": 0.08633244271453322,
+      "Max_Fold_Importance": 0.09736594756400171
+    },
+    {
+      "Feature": "Sleep_Time",
+      "Importance_Mean": 0.013389709791582893,
+      "Importance_STD_Folds": 0.012736935067855174,
+      "Min_Fold_Importance": -0.0008867971137109353,
+      "Max_Fold_Importance": 0.030853726860741903
+    },
+    {
+      "Feature": "Wake_Up_Time",
+      "Importance_Mean": 0.006224230084644832,
+      "Importance_STD_Folds": 0.0055439527395602685,
+      "Min_Fold_Importance": 0.001617648905249225,
+      "Max_Fold_Importance": 0.015824503923680754
+    },
+    {
+      "Feature": "Sleep_Duration_Hours",
+      "Importance_Mean": 0.005738516425062419,
+      "Importance_STD_Folds": 0.004846895592455655,
+      "Min_Fold_Importance": 0.002199085992592331,
+      "Max_Fold_Importance": 0.0137399162635079
+    },
+    {
+      "Feature": "BMI",
+      "Importance_Mean": 0.0028622822215531364,
+      "Importance_STD_Folds": 0.0021264033048298504,
+      "Min_Fold_Importance": 0.0008769715228832409,
+      "Max_Fold_Importance": 0.0062496478147987975
+    },
+    {
+      "Feature": "Obesity_Risk",
+      "Importance_Mean": 0.0013444819937607642,
+      "Importance_STD_Folds": 0.0007086448435825286,
+      "Min_Fold_Importance": 0.00048211394573165477,
+      "Max_Fold_Importance": 0.002296958997411047
+    }
+  ],
+  "top_energy_lifestyle_dependencies": [
+    {
+      "Feature": "Exercise_Frequency_Per_Week",
+      "Importance_Mean": 0.3944942399488288,
+      "Importance_STD_Folds": 0.023298957176902984,
+      "Min_Fold_Importance": 0.3619194736606119,
+      "Max_Fold_Importance": 0.42087793315471184
+    },
+    {
+      "Feature": "Sleep_Quality_Score",
+      "Importance_Mean": 0.2547411811099153,
+      "Importance_STD_Folds": 0.016036559874471685,
+      "Min_Fold_Importance": 0.23081041833413699,
+      "Max_Fold_Importance": 0.26816593365516306
+    },
+    {
+      "Feature": "Stress_Level",
+      "Importance_Mean": 0.20471811337386195,
+      "Importance_STD_Folds": 0.004259319897481377,
+      "Min_Fold_Importance": 0.19949061678156033,
+      "Max_Fold_Importance": 0.21064577892135516
+    },
+    {
+      "Feature": "Morning_Workout",
+      "Importance_Mean": 0.1787092060969055,
+      "Importance_STD_Folds": 0.006210962209904219,
+      "Min_Fold_Importance": 0.1723872552138534,
+      "Max_Fold_Importance": 0.1883127829485018
+    },
+    {
+      "Feature": "Sleep_Time",
+      "Importance_Mean": 0.014037366740125049,
+      "Importance_STD_Folds": 0.011497786962948207,
+      "Min_Fold_Importance": 0.0015159299902282708,
+      "Max_Fold_Importance": 0.03251542987499434
+    },
+    {
+      "Feature": "Water_Intake_Liters",
+      "Importance_Mean": 0.009451430529458345,
+      "Importance_STD_Folds": 0.0012822074917872711,
+      "Min_Fold_Importance": 0.007378000920827854,
+      "Max_Fold_Importance": 0.010532901454928223
+    },
+    {
+      "Feature": "Wake_Up_Time",
+      "Importance_Mean": 0.0074550458978059455,
+      "Importance_STD_Folds": 0.006573479974477782,
+      "Min_Fold_Importance": 0.0016547939484116813,
+      "Max_Fold_Importance": 0.017393287868480822
+    },
+    {
+      "Feature": "Sleep_Duration_Hours",
+      "Importance_Mean": 0.005055299500984654,
+      "Importance_STD_Folds": 0.005152070317035062,
+      "Min_Fold_Importance": 0.0006123269469054504,
+      "Max_Fold_Importance": 0.01367863820543378
+    },
+    {
+      "Feature": "Working_Hours_Per_Day",
+      "Importance_Mean": 0.0010959914670653204,
+      "Importance_STD_Folds": 0.0007821558252550201,
+      "Min_Fold_Importance": 0.0002077410680267011,
+      "Max_Fold_Importance": 0.002290688242786776
+    },
+    {
+      "Feature": "Sitting_Hours_Per_Day",
+      "Importance_Mean": 0.0009520890233420153,
+      "Importance_STD_Folds": 0.0004913287817462481,
+      "Min_Fold_Importance": 0.0005644954984351802,
+      "Max_Fold_Importance": 0.0017377590497428708
+    }
+  ],
+  "environment": {
+    "python": "3.13.13",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit_learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "joblib": "1.5.3"
+  }
+}

@@ -92,6 +92,13 @@
         ├── predictions/            # OOF 预测与锁定验证预测
         ├── figures/                # 报告所用真实实验图件
         └── results/                # 消融、折间指标、置换重要性
+│
+└── 复赛A题模型交付包/              # DATA2600655 复赛 A 题官方模型支撑材料（完整源码）
+    ├── 01_task1/                 # 睡眠质量评分回归：代码、模型、预测、图件、建模报告
+    ├── 02_task2/                 # 工作效率评分回归与驱动因素分析：同上结构
+    ├── 03_task3/                 # 综合健康评分回归：同上结构
+    ├── 04_paper_figures/         # 正式论文修订版 25 张纯矢量 SVG 与统一制图脚本
+    └── DATA2600655 AI 使用说明.pdf   # AI 工具使用详情说明
 ```
 
 > **说明**：受 GitHub 单文件 100 MB 限制，所有 `*.joblib` 模型权重未纳入版本库；每个任务目录均提供完整训练脚本，按"复现指南"执行即可原位重新生成。竞赛承诺书（含个人签名）亦未公开。
@@ -141,6 +148,18 @@ python train_task3.py       # 或 code/train_task3.py（初赛任务三）
 ```
 
 脚本以固定随机种子 2026 重新生成模型、OOF 预测、锁定验证预测、指标表与全部图件；重新训练产物统一写入 `reproduce_results/`（已被 `.gitignore` 排除）。
+
+### 4.4 复赛 A 题模型交付包（完整源码）
+
+`复赛A题模型交付包/` 为按赛事要求提交的官方模型支撑材料（对应仓库根目录压缩包 `ADATA2600655model.zip` 的解包版本），包含复赛三项任务各自的完整工程：`task*_model_report.pdf` 建模报告、已训练模型、训练与预测代码、`requirements.txt`、固定验证预测、模型比较结果及配套 PNG 图件。每个任务目录下：
+
+```bash
+python -m pip install -r requirements.txt          # 安装该任务固定依赖
+python code/predict_task1.py --input data/locked_test_inputs.csv --output my_predictions.csv   # 直接预测
+python code/train_task1.py --output model_rebuild  # 复现拟合（任务一示例）
+```
+
+三个任务均保留 `plotting/` 目录（绘图脚本 + 固定图源），`04_paper_figures/` 另存正式论文修订版 25 张纯矢量 SVG 及统一制图脚本 `generate_revised_figures.py`；新版图件仅基于既有固定图源重新排版，不改变模型、样本划分、预测结果或评价指标。交付包内 `*.joblib` 模型权重同样遵循版本控制排除规则，可经上述训练脚本原位重建。
 
 ---
 
